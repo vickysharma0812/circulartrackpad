@@ -8,9 +8,9 @@ BIN_NAME="circulartrackpad"
 BIN_DEST="/usr/local/bin/${BIN_NAME}"
 RULE_PATH="/etc/udev/rules.d/70-circulartrackpad.rules"
 
-# Synaptics TM3562-003 HID IDs (from /proc/bus/input/devices)
+# Let's Note CF-FV Synaptics touchpad HID IDs (from /proc/bus/input/devices)
 VENDOR_ID="06cb"
-PRODUCT_ID="cdea"
+PRODUCT_ID="cfb1"
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "${SCRIPT_DIR}"

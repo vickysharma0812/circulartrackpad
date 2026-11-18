@@ -5,8 +5,8 @@ use std::f64::consts::PI;
 use std::os::fd::AsRawFd;
 use std::time::{Duration, Instant};
 
-// -- Trackpad geometry (from evtest: ABS_X/ABS_Y range 0..528) --
-const PAD_MAX: f64 = 528.0;
+// -- Trackpad geometry (from evtest: ABS_X/ABS_Y range 0..771, Let's Note CF-FV) --
+const PAD_MAX: f64 = 771.0;
 const CENTER_X: f64 = PAD_MAX / 2.0;
 const CENTER_Y: f64 = PAD_MAX / 2.0;
 const MAX_RADIUS: f64 = PAD_MAX / 2.0;
